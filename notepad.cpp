@@ -147,25 +147,27 @@ void Notepad::on_actionChange_Font_triggered()
     }else return;
 
 }
-
+/*
 void Notepad::on_actionText_Colour_triggered()
 {
-/*
+
     QColor colour = QColorDialog::getColor(Qt::white, this, "Choose Colour");
     if(colour.isValid())
     {
         ui->plainTextEdit->setPalette(QPalette::WindowText;
 
-    }*/
+    }
 }
+
 
 void Notepad::on_actionBackground_Colour_triggered()
 {
-   /* QColor colour = QColorDialog::getColor(Qt::white, this, "Choose Colour");
+    QColor colour = QColorDialog::getColor(Qt::white, this, "Choose Colour");
     if(colour.isValid())
     {
         ui->plainTextEdit->setPalette(QPalette::Window(colour));
 
-    }*/
+    }
 }
 
+*/
