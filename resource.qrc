@@ -1,14 +1,5 @@
 <RCC>
     <qresource prefix="/rec">
-        <file>file.png</file>
-        <file>edit.png</file>
-        <file>save.png</file>
-        <file>copy.png</file>
-        <file>cut.png</file>
-        <file>paste.png</file>
-        <file>info.png</file>
-        <file>redo.png</file>
-        <file>undo.png</file>
         <file>icons/file.png</file>
         <file>icons/edit.png</file>
         <file>icons/save.png</file>
