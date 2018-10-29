@@ -15,6 +15,13 @@ public:
     explicit Notepad(QWidget *parent = 0);
     ~Notepad();
 
+
+protected:
+    Ui::Notepad *ui;
+    QString file_path;
+
+
+
 private slots:
     void on_actionNew_triggered();
 
@@ -42,10 +49,9 @@ private slots:
 
     void on_actionBackground_Colour_triggered();
 
-private:
-    Ui::Notepad *ui;
-    QString file_path;
+    void on_actionTheme_triggered();
 
+    void on_actionFind_Text_triggered();
 };
 
 #endif // NOTEPAD_H

@@ -92,6 +92,8 @@
      <string>Options</string>
     </property>
     <addaction name="actionChange_Font"/>
+    <addaction name="actionTheme"/>
+    <addaction name="actionFind_Text"/>
    </widget>
    <addaction name="menu_File"/>
    <addaction name="menuEdit"/>
@@ -215,6 +217,16 @@
   <action name="actionChange_Font">
    <property name="text">
     <string>Font</string>
+   </property>
+  </action>
+  <action name="actionTheme">
+   <property name="text">
+    <string>Theme</string>
+   </property>
+  </action>
+  <action name="actionFind_Text">
+   <property name="text">
+    <string>Find Text     Ctr+F</string>
    </property>
   </action>
  </widget>

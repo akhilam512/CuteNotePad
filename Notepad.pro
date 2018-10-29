@@ -25,13 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        notepad.cpp
+        notepad.cpp \
+    finddialog.cpp
 
 HEADERS += \
-        notepad.h
+        notepad.h \
+    finddialog.h
 
 FORMS += \
-        notepad.ui
+        notepad.ui \
+    finddialog.ui
 
 RESOURCES += \
     resource.qrc

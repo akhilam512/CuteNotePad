@@ -35,10 +35,10 @@ void Notepad::on_actionOpen_triggered()
     QString file_name = QFileDialog::getOpenFileName(this, "Open a file");
 
     QFile file(file_name);
-    file_path = file_name;
+    file_path = file_name; //file_path is updated with new filepath
     if(!file.open(QFile::ReadOnly | QFile::Text  ))
     {
-        QMessageBox::warning(this, "Error", "File Not Open");
+        QMessageBox::warning(this, "Error", "COuldn't open File");
         return;
     }
 
@@ -52,7 +52,7 @@ void Notepad::on_actionOpen_triggered()
 
 void Notepad::on_actionSave_triggered()
 {
-    if(file_path.isNull())
+    if(file_path.isNull()) //First save - (works as same as "Save as")
     {
         //file_path = "";
         QString file_name = QFileDialog::getSaveFileName(this, "Open a file");
@@ -171,3 +171,13 @@ void Notepad::on_actionBackground_Colour_triggered()
 }
 
 */
+
+void Notepad::on_actionTheme_triggered()
+{
+
+}
+
+void Notepad::on_actionFind_Text_triggered()
+{
+
+}
