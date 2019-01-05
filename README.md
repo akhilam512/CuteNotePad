@@ -8,7 +8,7 @@ To run CuteNotePad on your system, you will need to install Qt5.
 - Qt5
 
 ### Installing
-Follow the instructions given in the (official documentation for Qt installation)[http://doc.qt.io/qt-5/gettingstarted.html]
+Follow the instructions given in the [official documentation for Qt installation](http://doc.qt.io/qt-5/gettingstarted.html)
 
 After setting up Qt, clone this repository in a local directory on your machine
 
