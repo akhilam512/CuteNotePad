@@ -2,7 +2,7 @@
 A basic Notepad desktop application made using Qt.
 
 ## Getting Started 
-To run CuteNotePad on your system, you will need to install Qt5 which is a cross-platform to make Desktop Applications in C++.
+To run CuteNotePad on your system, you will need to install Qt5.
 
 ### Prequisites 
 - Qt5
@@ -29,18 +29,6 @@ Open QtCreator and Go to Open Projects and select the "Notepad.pro" in the clone
 #### Sample text:
 
 <img src="/notepad_ss/sampletxt.png">
-
-#### "File":
-
-<img src="/notepad_ss/File.png">
-
-#### "Edit":
-
-<img src="/notepad_ss/edit.png">
-
-#### "Options" :
-
-<img src="/notepad_ss/options.png">
 
 #### Copy - Paste :
 
