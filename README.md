@@ -15,10 +15,6 @@ After setting up Qt, clone this repository in a local directory on your machine
 ````
 git clone "https://github.com/akhilam512/CuteNotePad.git"
 ````
-Open QtCreator and Go to Open Projects and select the "Notepad.pro" in the cloned repository directory. 
-
-"Build and Run" the project.
-
 
 ## Working :
 
