@@ -128,6 +128,8 @@ void Notepad::on_actionAbout_Me_triggered()
 {
     QString a =  "Creator  : akhilam512\n";
     a        +=  "Date     : 26 - 10 - 2018\n";
+    a        += "Contributors    : \n";
+    a        += "Joao Baptista";
     a        +=  "  -- Notepad -- ";
 
     QMessageBox::about(this, "About Noteza", a);
