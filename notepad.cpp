@@ -127,6 +127,7 @@ void Notepad::on_actionRedo_triggered()
 void Notepad::on_actionAbout_Me_triggered()
 {
     QString a =  "Creator  : akhilam512\n";
+    a        +=  "Contributors  : caioreis123\n";
     a        +=  "Date     : 26 - 10 - 2018\n";
     a        +=  "  -- Notepad -- ";
 
