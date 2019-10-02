@@ -56,7 +56,7 @@
      <x>0</x>
      <y>0</y>
      <width>470</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
@@ -85,7 +85,13 @@
     <property name="title">
      <string>About</string>
     </property>
-    <addaction name="actionAbout_Me"/>
+    <widget class="QMenu" name="menuAbout_Me">
+     <property name="title">
+      <string>About Me!</string>
+     </property>
+     <addaction name="actionSavethan_Sritharan"/>
+    </widget>
+    <addaction name="menuAbout_Me"/>
    </widget>
    <widget class="QMenu" name="menuOptions">
     <property name="title">
@@ -181,15 +187,6 @@
     <string>Ctrl+X</string>
    </property>
   </action>
-  <action name="actionAbout_Me">
-   <property name="icon">
-    <iconset resource="resource.qrc">
-     <normaloff>:/rec/icons/info.png</normaloff>:/rec/icons/info.png</iconset>
-   </property>
-   <property name="text">
-    <string>About Me!</string>
-   </property>
-  </action>
   <action name="actionUndo">
    <property name="icon">
     <iconset resource="resource.qrc">
@@ -227,6 +224,11 @@
   <action name="actionFind_Text">
    <property name="text">
     <string>Find Text     Ctr+F</string>
+   </property>
+  </action>
+  <action name="actionSavethan_Sritharan">
+   <property name="text">
+    <string>Savethan Sritharan</string>
    </property>
   </action>
  </widget>
