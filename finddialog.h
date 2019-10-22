@@ -2,6 +2,7 @@
 #define FINDDIALOG_H
 #include "notepad.h"
 #include <QDialog>
+#include <QObject>
 #include <QAbstractButton>
 
 
@@ -18,7 +19,7 @@ public:
     ~FindDialog();
 
 private slots:
-    void on_buttonBox_clicked(QAbstractButton *button);
+   // void on_buttonBox_clicked(QAbstractButton *button);
     
 
 private:

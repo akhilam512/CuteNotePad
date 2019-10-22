@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QString>
+#include <QObject>
 namespace Ui {
 class Notepad;
 }
@@ -45,9 +46,9 @@ private slots:
 
     void on_actionChange_Font_triggered();
 
-    void on_actionText_Colour_triggered();
+    //void on_actionText_Colour_triggered();
 
-    void on_actionBackground_Colour_triggered();
+    //void on_actionBackground_Colour_triggered();
 
     void on_actionTheme_triggered();
 
