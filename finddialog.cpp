@@ -15,7 +15,7 @@ FindDialog::~FindDialog()
     delete ui2;
 }
 
-void FindDialog::on_buttonBox_clicked(QAbstractButton *button)
+/*void FindDialog::on_buttonBox_clicked(QAbstractButton *button)
 {
     //QString q = Notepad::ui->plainTextEdit->toPlainText();
     //ui2->lineEdit = ui->plainTextEdit->toPlainText();
@@ -40,5 +40,6 @@ void FindDialog::on_buttonBox_clicked(QAbstractButton *button)
 
 
     }
-    */
+    
 }
+*/
